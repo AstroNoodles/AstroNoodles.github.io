@@ -94,6 +94,7 @@ h1 {
   height: 10%;
   padding-left: 20px;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 .facebook-s {
@@ -184,7 +185,11 @@ h1 {
 }
 
 #projects {
-  background: linear-gradient(#fb8c00, #ff9800,#ffa726,#ffb74d )
+  background: linear-gradient(#fb8c00, #ff9800,#ffa726,#ffb74d );
+  border-top-color: black;
+  margin-top: 10px;
+  border-style: groove;
+  border-width: 1px;
 }
 
 #grid-container {
@@ -199,3 +204,6 @@ h1 {
   margin-left: 20px;
 }
 
+hr {
+  color: black;
+}
