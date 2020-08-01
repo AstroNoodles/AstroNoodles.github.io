@@ -37,7 +37,11 @@
             <h1> Contact Me </h1>
             </figcaption>
         </figure>
-        <form method="post" enctype="multipart/form-data" action="mailto:mbatavia27@gmail.com">
+
+        <!-- GitHub pages only supports static websites so we will have to use custom PHP pages for sending emails in the future.
+        :-( :-( -->
+        
+        <form method="post" action="contactme.php">
           <label class="form-text" for="name">Full Name: </label><br>
           <input class="form-text" type="text" id="name" name="fullname" placeholder="John Doe" required><br><br>
           <label class="form-text" for="email">Email Address: </label><br>
