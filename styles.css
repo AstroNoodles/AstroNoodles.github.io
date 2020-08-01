@@ -79,8 +79,8 @@ h1 {
 }
 
 .bigfigs {
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   padding: 5px 0px 5px 0px;
 }
 
@@ -90,8 +90,8 @@ h1 {
 }
 
 #facebook {
-  width: 12%;
-  height: 10%;
+  width: 6%;
+  height: 6%;
   padding-left: 20px;
   margin-right: 10px;
   border-radius: 5px;
@@ -105,10 +105,10 @@ h1 {
 }
 
 #linkedin {
-  width: 10%;
+  width: 4%;
   display: inline-block;
   margin-right: 10px;
-  height: 15%;
+  height: 8%;
 }
 
 .linkedin-s {
@@ -119,7 +119,7 @@ h1 {
 }
 
 #github {
-  width: 7%;
+  width: 4%;
   display: inline-block;
   margin-right: 10px;
   height: 2%
@@ -133,9 +133,9 @@ h1 {
 }
 
 #profile {
-  width: 30%;
+  width: 20%;
   float: left;
-  height: 20%;
+  height: 10%;
 }
 
 .profile-s {
@@ -164,7 +164,7 @@ h1 {
   padding: 10px 10px 10px 10px;
 }
 
-.logo:hover {
+.logo2:hover {
   background-color: #e57373;
 }
 
