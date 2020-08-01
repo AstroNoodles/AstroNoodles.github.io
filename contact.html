@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Michael Batavia</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="contact.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="main-bar">
+      <div id="button-bar">
+      <p style="display: inline; visibility: hidden;"> Spacing Spacing Spacing </p>
+      <input type="button" class="tab-buttons" value="Home" onclick="location.href='./index.html';" />
+      <input type="button" class="tab-buttons"
+      value="Skills" onclick="location.href='./skills.html';" />
+      <input type='button' class="tab-buttons" value="Resume" onclick="location.href='./resume.html';" />
+      <input type='button' class="tab-buttons" value='Contact' onclick="location.html='./contact.html';" />
+      </div> <br>
+      <div class="top-bar-s" style="background-color: #ffcc80">
+        <img class="profile-s" src="./resources/profile_pic.png" alt="Profile Pic Mike" />
+
+        <h1 class = "toptext-s"> Michael Batavia </h1>
+        <p class = "toptext-s"> Student By Day - Coder By Night. <br>See my links below.</p>
+    
+        <a target="_blank" class="header" href="https://www.facebook.com/michael.batavia.503/"><img class="facebook-s" src="./resources/facebook.png" alt="Facebook"></a>
+        <a target="_blank" class="header" href="https://www.linkedin.com/in/michael-batavia-18160a186/"><img class="linkedin-s" src="./resources/linkedin.png" alt="LinkedIn"></a>
+        <a target="_blank"  class="header" href="https://github.com/AstroNoodles"><img class="github-s" src="./resources/github.jpg" alt="GitHub"></a>
+        <a target="_blank" class="header" href="https://www.strava.com/athletes/46336767"><img class="strava-s"  src="./resources/strava-icon-29.jpg" alt="Strava"></a>
+    </div>
+    <br>
+      <div id="main-bar">
+        <figure>
+          <img src="./projects/thli-cover.jpg" alt="Contact ME Picture" style="width: 100%; height: 90%; border: 1px groove black;">
+          <figcaption style="text-align: center">
+            <h1> Contact Me </h1>
+            </figcaption>
+        </figure>
+        <form method="post" action="contact.php">
+          <label class="form-text" for="name">Full Name: </label><br>
+          <input class="form-text" type="text" id="name" name="fullname" placeholder="John Doe" required><br><br>
+          <label class="form-text" for="email">Email Address: </label><br>
+          <input class = "form-text" type="text" id="email" name="email" placeholder="johndoe@hotmail.com" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" required><br><br>
+          <label class="form-text" for="text">Message: </label><br>
+          <textarea class="form-text" id="text" name="message" rows="8" columns="70" placeholder="Insert Message Here"></textarea><br>
+          <input class="form-text" type="submit" value="Submit Info" id="submit-button"><br>
+          <?=$thankyou?>
+        </form>
+      </div>
+  <footer>
+    <p class="footer-text"> © Michael Batavia 2020 </p>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+
+.top-bar{
+  background-color: #ffb74d;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.top-bar-s {
+  background-color: #ffb74d;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1.5px solid #1976d2;
+  border-radius: 6px;
+}
+
+.tab-buttons {
+  padding: 5px 10px 5px 10px;
+  background-color: #ffcdd2;
+  margin-left: 20px;
+  border: 1px ridge black;
+}
+
+.profile-header {
+  width: 25%;
+  height: 15%;
+  margin-top: 10px;
+}
+
+.button-bar {
+  background: radial-gradient(#ffecb3,#ffe082, #ffb74d);
+  display: block;
+}
+
+.tab-buttons:hover {
+  background-color:#ffe0b2;
+  text-decoration: underline;
+}
+
+ .toptext {
+  display: grid;
+  padding-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ .toptext-s {
+  display: grid;
+  font-size: 12px;
+  padding-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+  background-color: #ffa726;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 13.5px;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+
+figcaption {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#top-background {
+  background: linear-gradient(#ffb74d,#ffa726,#ff9800, #fb8c00 )
+}
+
+.bigfigs {
+  width: 50%;
+  height: 50%;
+  padding: 5px 0px 5px 0px;
+}
+
+#nonhackathon {
+  padding: 2px 2px 2px 2px;
+  border: 4px groove red;
+}
+
+#facebook {
+  width: 12%;
+  height: 10%;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.facebook-s {
+  width: 5%;
+  height: 7%;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+#linkedin {
+  width: 10%;
+  display: inline-block;
+  margin-right: 10px;
+  height: 15%;
+}
+
+.linkedin-s {
+  width: 5%;
+  display: inline-block;
+  margin-right: 10px;
+  height: 7%;
+}
+
+#github {
+  width: 7%;
+  display: inline-block;
+  margin-right: 10px;
+  height: 2%
+}
+
+.github-s {
+  width: 4%;
+  display: inline-block;
+  margin-right: 10px;
+  height: 2%
+}
+
+#profile {
+  width: 30%;
+  float: left;
+  height: 20%;
+}
+
+.profile-s {
+  width: 15%;
+  float: left;
+  height: 10%;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+  margin-left: 20px;
+  border: 1px ridge black;
+}
+
+.logo:hover {
+  background-color: #e57373;
+}
+
+.logo2 {
+  width: 20%;
+  height: 30%;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  border: 1px ridge black;
+  padding: 10px 10px 10px 10px;
+}
+
+.logo:hover {
+  background-color: #e57373;
+}
+
+#strava {
+  width: 8%;
+  display: inline-block;
+  margin-right: 10px;
+  height: 6%;
+  background-color: white;
+}
+
+.strava-s {
+  width: 4%;
+  display: inline-block;
+  margin-right: 10px;
+  height: 3%;
+  background-color: white;
+}
+
+#projects {
+  background: linear-gradient(#fb8c00, #ff9800,#ffa726,#ffb74d )
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.projectnum {
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-left: 20px;
+}
+

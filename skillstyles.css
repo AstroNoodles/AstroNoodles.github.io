@@ -1,0 +1,51 @@
+#skillbg {
+  background-color: #ffb74d;
+  display: grid;
+  grid-template-columns: 210px 250px;
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+}
+
+.skill {
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-color: black;
+  border-width: 1px;
+}
+
+.focus-image {
+  width: 115%;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.focus-image:hover {
+  width: 140%;
+  height: 180%;
+}
+
+#reactions1 {
+  width: 60%;
+  height: 60%;
+  margin-left: 40px;
+  margin-top: 20px;
+  border: 1px groove black;
+}
+
+#reactions1:hover {
+  width: 80%;
+  height: 80%;
+}
+
+#reactions2 {
+  width: 110%;
+  height: 100%;
+  border: 1px groove black;
+}
+
+#reactions2:hover {
+  width: 130%;
+  height: 170%;
+}
+
+

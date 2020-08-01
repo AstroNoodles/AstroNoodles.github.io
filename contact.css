@@ -1,0 +1,50 @@
+#main-bar {
+  background: linear-gradient(#fff3e0, #ffe0b2, #ffcc80)
+}
+
+.form-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+input[type=text] {
+  width: 60%;
+  font-size: 11.5px;
+  height: 20%;
+  margin-left: 10px;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  border: 1px groove #ef9a9a;
+  background-color: #ffebee;
+  color: black;
+}
+
+input[type=submit] {
+  padding: 6px 9px;
+  border: 1px groove black;
+  cursor: pointer;
+  color: black;
+  background-color: #f8bbd0;
+  margin-top: 20px;
+}
+
+#submit-button:hover {
+  border: 2px groove black;
+  background-color: #ffcdd2;
+}
+
+textarea {
+  margin-left: 10px;
+  font-size: 6pt;
+  width: 90%;
+  box-shadow: 1px 1px 1px #999;
+  height: 80%;
+  background-color: #ffebee;
+  overflow: none;
+  border: 1px groove #ef9a9a;
+  box-sizing: border-box;
+  resize: none;
+  padding: 10px 10px;
+  color: black;
+}
