@@ -1,5 +1,5 @@
-#main-bar {
-  background: linear-gradient(#fff3e0, #ffe0b2, #ffcc80)
+.main-bar {
+  background: linear-gradient(#fff3e0, #ffe0b2, #ffcc80);
 }
 
 .form-text {

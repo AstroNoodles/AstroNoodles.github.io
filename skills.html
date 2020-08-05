@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Batavia</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="skillstyles.css" rel="stylesheet" type="text/css" />
@@ -20,15 +20,16 @@
       </div>
       <br>
     <div class="top-bar-s">
-        <img class="profile-s" src="./resources/profile_pic.png" alt="Profile Pic Mike" />
+        <img style="width: 10%; height: 10%; float: left; border: 4px groove #4caf50; border-radius: 2px"
+             src="./resources/profile_pic.jpg" alt="Profile Pic Mike" />
 
-        <h1 class = "toptext-s"> Michael Batavia </h1>
-        <p class = "toptext-s"> Student By Day - Coder By Night. <br>See my links below.</p>
-    
-        <a target="_blank" class="header" href="https://www.facebook.com/michael.batavia.503/"><img class="facebook-s" src="./resources/facebook.png" alt="Facebook"></a>
-        <a target="_blank" class="header" href="https://www.linkedin.com/in/michael-batavia-18160a186/"><img class="linkedin-s" src="./resources/linkedin.png" alt="LinkedIn"></a>
-        <a target="_blank"  class="header" href="https://github.com/AstroNoodles"><img class="github-s" src="./resources/github.jpg" alt="GitHub"></a>
-        <a target="_blank" class="header" href="https://www.strava.com/athletes/46336767"><img class="strava-s"  src="./resources/strava-icon-29.jpg" alt="Strava"></a>
+        <h1 class = "toptext"> Michael Batavia </h1>
+        <p class = "toptext" style="font-size: 13px"> Student By Day - Coder By Night. <br>See my links below.</p>
+
+        <a target="_blank" class="header" href="https://www.facebook.com/michael.batavia.503/"><img id="facebook" style="padding-left: 0; margin-left: 20px; border: 1px groove black; width: 3%; height: 3%;" src="./resources/facebook.png" alt="Facebook"></a>
+        <a target="_blank" class="header" href="https://www.linkedin.com/in/michael-batavia-18160a186/"><img id="linkedin" style="border: 1px groove black;width: 3%; height: 3%;" src="./resources/linkedin.png" alt="LinkedIn"></a>
+        <a target="_blank"  class="header" href="https://github.com/AstroNoodles"><img id="github" style="border: 1px groove black; width: 2%; height: 3%;" src="./resources/github.jpg" alt="GitHub"></a>
+        <a target="_blank" class="header" href="https://www.strava.com/athletes/46336767"><img id="strava" style="border: 1px groove black; width: 2%; height: 3%;" src="./resources/strava-icon-29.jpg" alt="Strava"></a>
     </div>
     <br> <br>
   <div id="skillbg">
@@ -64,7 +65,7 @@
         </figure>
         </div>
         <div class="skill">
-          <p> For my own research project with assistance from <a href="https://www.bxscience.edu/apps/pages/index.jsp?uREC_ID=130114&type=u" target="_blank">Dr. Vladimir Shapovalov</a> and <a href="https://www.stonybrook.edu/commcms/iedm/about/leadership/YuefanDeng" target="_blank">Dr. Yuefan Deng</a>, I decided to combine my skills in machine learning and deep learning to <b> analyze breast cancer DICOM slides to determine if a tumor is benign or malignant.</b> To make my project unique, I used several techniques including hyperparameter tuning using <i> keras-tuner</i>, data parallelism using a multi GPU model, class weights and a specific logarithmic factor to correct class imbalance in the dataset and a custom deep neural network that models VGG16. I also used the optimizer SGD (stochastic gradient descent) with momentum over the more popular adaptive optimizers such as ADAM. My results show that using SGD with momentum may still perform accurate and near state of the art results. The use of data parallelism also crosses over the mathematical difficulties that modern convolutional neural networks have in generalizing to medical datasets. As a result, radiologists can use my model to assist their decision on whether proper schema treatment is needed to treat a malignant breast tumor and whether treatment is needed at the moment to prevent the cancer from spreading to the lymph nodes. This project only adds to my arsenal on how deep learning can be <strong> practical </strong> and <strong> save lives. </strong> </p>
+            <p> For my own research project with assistance from <a href="https://www.bxscience.edu/apps/pages/index.jsp?uREC_ID=130114&type=u" target="_blank">Dr. Vladimir Shapovalov</a> and <a href="https://www.stonybrook.edu/commcms/iedm/about/leadership/YuefanDeng" target="_blank">Dr. Yuefan Deng</a>, I decided to combine my skills in machine learning and deep learning to <b> analyze breast cancer DICOM slides to determine if a tumor is benign or malignant.</b> To make my project unique, I used several techniques including hyperparameter tuning using <cite> <a href="https://www.tensorflow.org/tutorials/keras/keras_tuner" target="_blank">keras-tuner</a></cite>, data parallelism using a multi GPU model, class weights and a specific logarithmic factor to correct class imbalance in the dataset and a custom deep neural network that models VGG16. I also used the optimizer SGD (stochastic gradient descent) with momentum over the more popular adaptive optimizers such as ADAM. My results show that using SGD with momentum may still perform accurate and near state of the art results. The use of data parallelism also crosses over the mathematical difficulties that modern convolutional neural networks have in generalizing to medical datasets. As a result, radiologists can use my model to assist their decision on whether proper schema treatment is needed to treat a malignant breast tumor and whether treatment is needed at the moment to prevent the cancer from spreading to the lymph nodes. This project only adds to my arsenal on how deep learning can be <strong> practical </strong> and <strong> save lives. </strong> </p>
         </div>
       <div class="skill">
       <iframe width="180" height="205" src="https://www.youtube.com/embed/IVu6Y95vuYI" frameborder="0" style="margin-top: 30px; margin-left: 20px;"

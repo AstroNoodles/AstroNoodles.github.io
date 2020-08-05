@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Batavia</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="contact.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <script src="script.js"></script>
-    <div id="main-bar">
-      <div id="button-bar">
+    <div style="background: linear-gradient(#fff3e0, #ffe0b2, #ffcc80);">
+      <div>
       <p style="display: inline; visibility: hidden;"> Spacing Spacing Spacing </p>
       <input type="button" class="tab-buttons" value="Home" onclick="location.href='./index.html';" />
       <input type="button" class="tab-buttons"
@@ -18,22 +18,23 @@
       <input type='button' class="tab-buttons" value="Resume" onclick="location.href='./resume.html';" />
       <input type='button' class="tab-buttons" value='Contact' onclick="location.html='./contact.html';" />
       </div> <br>
-      <div class="top-bar-s" style="background-color: #ffcc80">
-        <img class="profile-s" src="./resources/profile_pic.png" alt="Profile Pic Mike" />
+      <div class="top-bar-s">
+        <img style="width: 10%; height: 10%; float: left; border: 4px groove #4caf50; border-radius: 2px"
+             src="./resources/profile_pic.jpg" alt="Profile Pic Mike" />
 
-        <h1 class = "toptext-s"> Michael Batavia </h1>
-        <p class = "toptext-s"> Student By Day - Coder By Night. <br>See my links below.</p>
-    
-        <a target="_blank" class="header" href="https://www.facebook.com/michael.batavia.503/"><img class="facebook-s" src="./resources/facebook.png" alt="Facebook"></a>
-        <a target="_blank" class="header" href="https://www.linkedin.com/in/michael-batavia-18160a186/"><img class="linkedin-s" src="./resources/linkedin.png" alt="LinkedIn"></a>
-        <a target="_blank"  class="header" href="https://github.com/AstroNoodles"><img class="github-s" src="./resources/github.jpg" alt="GitHub"></a>
-        <a target="_blank" class="header" href="https://www.strava.com/athletes/46336767"><img class="strava-s"  src="./resources/strava-icon-29.jpg" alt="Strava"></a>
+        <h1 class = "toptext"> Michael Batavia </h1>
+        <p class = "toptext" style="font-size: 13px"> Student By Day - Coder By Night. <br>See my links below.</p>
+
+        <a target="_blank" class="header" href="https://www.facebook.com/michael.batavia.503/"><img id="facebook" style="padding-left: 0; margin-left: 20px; border: 1px groove black; width: 3%; height: 3%;" src="./resources/facebook.png" alt="Facebook"></a>
+        <a target="_blank" class="header" href="https://www.linkedin.com/in/michael-batavia-18160a186/"><img id="linkedin" style="border: 1px groove black;width: 3%; height: 3%;" src="./resources/linkedin.png" alt="LinkedIn"></a>
+        <a target="_blank"  class="header" href="https://github.com/AstroNoodles"><img id="github" style="border: 1px groove black; width: 2%; height: 3%;" src="./resources/github.jpg" alt="GitHub"></a>
+        <a target="_blank" class="header" href="https://www.strava.com/athletes/46336767"><img id="strava" style="border: 1px groove black; width: 2%; height: 3%;" src="./resources/strava-icon-29.jpg" alt="Strava"></a>
     </div>
     <br>
       <div id="main-bar">
         <figure>
-          <img src="./projects/thli-cover.jpg" alt="Contact ME Picture" style="width: 100%; height: 90%; border: 1px groove black;">
-          <figcaption style="text-align: center">
+          <img src="./projects/thli-cover.jpg" alt="Contact ME Picture" style="width: 50%; height: 50%; border: 1px groove black;">
+          <figcaption style="text-align: left; margin-left: 200px;">
             <h1> Contact Me </h1>
             </figcaption>
         </figure>
@@ -51,5 +52,6 @@
   <footer>
     <p class="footer-text"> © Michael Batavia 2020 </p>
   </footer>
+    </div>
   </body>
 </html>
