@@ -1,7 +1,7 @@
 #skillbg {
   background-color: #ffb74d;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 280px 300px;
   grid-column-gap: 30px;
   grid-row-gap: 40px;
 }
