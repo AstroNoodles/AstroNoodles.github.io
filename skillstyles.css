@@ -13,6 +13,10 @@
   border-width: 1px;
 }
 
+#blockreactions {
+  display: block;
+}
+
 .focus-image {
   width: 115%;
   height: 100%;
